@@ -81,6 +81,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\..\AppData\Roaming\37ab7326ab06e9ce64db450523b0edb0\lol\plugins</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -155,6 +156,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="FatalityUtils.cpp" />
+    <ClCompile Include="Helpers.cpp" />
+    <ClCompile Include="Others.cpp" />
+    <ClCompile Include="Permashow.cpp" />
+    <ClCompile Include="plugin_sdk\clipper.cpp" />
+    <ClCompile Include="plugin_sdk\plugin_sdk.cpp" />
+    <ClCompile Include="Xerath.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FatalityUtils.h" />
+    <ClInclude Include="Helpers.h" />
+    <ClInclude Include="Others.h" />
+    <ClInclude Include="Permashow.hpp" />
+    <ClInclude Include="plugin_sdk\clipper.h" />
+    <ClInclude Include="plugin_sdk\cpplinq.h" />
+    <ClInclude Include="plugin_sdk\plugin_sdk.hpp" />
+    <ClInclude Include="Xerath.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

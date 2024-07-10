@@ -5,10 +5,60 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Quelldateien\Utils">
+      <UniqueIdentifier>{70a17d4f-2cb7-4d6c-8515-b5e40c444a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Champions">
+      <UniqueIdentifier>{ba94c03f-daf1-4a87-a515-8dd6b2a512a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Champions\Xerath">
+      <UniqueIdentifier>{fdbf946f-034c-49c8-98fc-6cbd874df5e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="FatalityUtils.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Permashow.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Xerath.cpp">
+      <Filter>Quelldateien\Champions\Xerath</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin_sdk\clipper.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin_sdk\plugin_sdk.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Others.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FatalityUtils.h">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Permashow.hpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Xerath.h">
+      <Filter>Quelldateien\Champions\Xerath</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin_sdk\clipper.h" />
+    <ClInclude Include="plugin_sdk\cpplinq.h" />
+    <ClInclude Include="plugin_sdk\plugin_sdk.hpp" />
+    <ClInclude Include="Helpers.h">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Others.h">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
